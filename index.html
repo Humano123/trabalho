@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falas</title>
+    <style>
+        body{
+            background: linear-gradient(white, gray);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .falas{
+            background-color: blue;
+            border: 0;
+            color: aliceblue;
+            font-size: 100%;
+        }
+        .falas:hover{
+            background-color: rgb(0, 0, 158);
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+            transform: scale(1.1);
+        }
+        .falas:active{
+            transform: scale(0.5);
+        }
+        .falas{
+            border-radius: 1vh;
+        }
+        .separacao{
+            display: flex;
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Falas no trabalho sobre o filme (Doador de memorias)</h1>
+    <p>As falas estão aqui:</p>
+    <br>
+    <div class="separacao">
+    <a href="gabriel.html"><input class="falas"  type="button" value="Gabriel leão"></a>
+    <br>
+    <a href="miguel.html"><input  class="falas" type="button" value="Miguel leão"></a>
+    <br>
+    <a href="pedro.html"><input   class="falas" type="button" value="Pedro felipe"></a>
+    <br>
+    <a href="halley.html"><input  class="falas" type="button" value="Halley machado"></a>
+    </div>
+    <br>
+    <br>
+    <footer>&copy;Feito por Thiago bel</footer>
+</body>
+</html>
